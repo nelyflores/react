@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700,800,900');
+img.logotipo{
+	padding: 0;
+	margin-top: 34px;
+    margin-left: 0 !important;
+}
+.nav{
+    background-color: #000;
+
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.jumbotrones-fluid {
+    background:
+
+    url(../img/Fondo-Landing.png);
+    background-size: cover;
+    min-height: 600px;
+    color: #FFF;
+}
+h1.display-2{
+    padding-top: 138px;
+}
+
+.display-2 {
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #696969;
+}
+li.navbar-right{
+    margin-right: 0;
+}
+
+#dropdown-no-caret{
+    background: black;
+    border-color: black;
+    color: white;
+    font-weight: 800;
+
+
+}
+.btn-verde{
+    font-size: 15px;
+    padding: 15px 0px;
+    width: 220px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.contactanos{
+    padding-top: 22px;
+}
+
+section.jumbotrones{
+    height: 1000px;
+}
+
+.menu
+{
+background-color: #00547E;
+border-bottom: 4px solid #04A3ED;
+width:100%;
+height: auto;
+padding: 0 10px;
+position: fixed;
+margin: 0px;
+z-index: 1;
+opacity: 0.9;
+}
+
+.menu  .navbar-nav > .active > a
+{
+background-color : #04A3ED;
+color: white;
+font-weight: bold;
+}
+
+.menu  .navbar-nav >  li >  a
+{
+font-size: 13px;
+color: white;
+padding: 10px 35px;
+
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+background-color: #04A3ED;
+}
+
+.navbar-header > a
+{
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 5px 30px;
+}
+.navbar-header > a:hover
+{
+text-decoration: none;
+color: #04A3ED;
+}
+
+@media only screen and (max-width: 500px) {
+   .logotipo{
+        display: block;
+        margin-left: 19%;
+        margin-right: auto;
+    }
+    section.jumbotrones{
+
+    height: auto;
+    min-height: auto;
+
+}
+}
